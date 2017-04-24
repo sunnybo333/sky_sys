@@ -5,6 +5,7 @@ class Login extends Controller
 {
     public function index()
     {
+        $this->redirect('home/index');
     	$this->assign('js_file','../application/sky/view/login/js/index.html');
     	return view();
 
